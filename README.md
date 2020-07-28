@@ -8,6 +8,7 @@ https://www.youtube.com/playlist?list=PLliocbKHJNwvGcV1tK84Mr_lmNZdReXUJ
 ## 课程详细
 
 01. 课程介绍
+02. Bootstrap5的导入
 
 ## 课程文件
 
