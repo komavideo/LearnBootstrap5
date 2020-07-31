@@ -10,6 +10,7 @@ https://www.youtube.com/playlist?list=PLliocbKHJNwvGcV1tK84Mr_lmNZdReXUJ
 01. 课程介绍
 02. Bootstrap5的导入
 03. Bootstrap NPM入门模板
+04. 从源代码编译Bootstrap 5
 
 ## 课程文件
 
