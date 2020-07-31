@@ -11,6 +11,7 @@ https://www.youtube.com/playlist?list=PLliocbKHJNwvGcV1tK84Mr_lmNZdReXUJ
 02. Bootstrap5的导入
 03. Bootstrap NPM入门模板
 04. 从源代码编译Bootstrap 5
+05. 必须了解的媒体查询 - Media queries
 
 ## 课程文件
 
