@@ -12,6 +12,7 @@ https://www.youtube.com/playlist?list=PLliocbKHJNwvGcV1tK84Mr_lmNZdReXUJ
 03. Bootstrap NPM入门模板
 04. 从源代码编译Bootstrap 5
 05. 必须了解的媒体查询 - Media queries
+06. 页面的断点 - Breakpoints
 
 ## 课程文件
 
