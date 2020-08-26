@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+
+    <title>Bootstrap 5 - 小马技术</title>
+</head>
+<body>
+    <!-- Main -->
+    <div class="container bg-dark">
+        <div class="row">
+            <div class="col border bg-light p-3">1</div>
+        </div>
+        <div class="row">
+            <div class="col border bg-light p-3">1</div>
+            <div class="col border bg-light p-3">2</div>
+        </div>
+        <div class="row">
+            <div class="col border bg-light p-3">1</div>
+            <div class="col border bg-light p-3">2</div>
+            <div class="col border bg-light p-3">3</div>
+        </div>
+        <div class="row">
+            <div class="col border bg-light p-3">1</div>
+            <!-- 设置单列的宽度比例 6/12 -->
+            <div class="col-6 border bg-light p-3">2</div>
+            <div class="col border bg-light p-3">3</div>
+        </div>
+        <div class="row">
+            <!-- 响应式布局 -->
+            <div class="col col-xl-10 col-lg-8 col-md-6 col-sm-4 border bg-light p-3">1</div>
+        </div>
+        <div class="row">
+            <!-- 响应式布局 -->
+            <div class="col col-xl-12 col-lg-10 col-md-8 col-sm-6 border bg-light p-3">1</div>
+        </div>
+        <div class="row">
+            <!-- 响应式布局 -->
+            <div class="col col-xl-12 col-lg-10 col-md-8 col-sm-12 border bg-light p-3">1</div>
+        </div>
+        <div class="row">
+            <!-- 响应式布局２列组合 -->
+            <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 border bg-warning p-3">1</div>
+            <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 border bg-info p-3">2</div>
+        </div>
+    </div>
+    <hr>
+    <p style="text-align: center;">窗口宽度: <span id="width"></span></p>
+    <script>
+        var widthOutput = document.querySelector('#width');
+        function resize() {
+            widthOutput.textContent = window.innerWidth;
+        }
+        window.onresize = resize;
+        resize();
+    </script>
+    <!-- JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+</html>
